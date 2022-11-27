@@ -1,0 +1,23 @@
+body{
+    background-color: cornflowerblue;
+}
+p{
+    background-color: lightblue;
+}
+
+span{
+    border-color: black;
+    border-width:2px;
+    border-style: dotted;
+}
+div{
+    border-color: aqua;
+    border-width: 3px;
+    border-style: groove;
+}
+div{
+
+    border-top-color: blueviolet;
+    border-width: 3px;
+    border-style: inset;
+}

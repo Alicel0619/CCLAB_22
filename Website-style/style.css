@@ -1,0 +1,23 @@
+body{
+    background-color: lavender;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+div{
+    border-color: aqua;
+    border-width: 1px;
+    border-style: groove;
+    
+}
+div{
+
+    border-top-color: blueviolet;
+    border-width: 1px;
+    border-style: inset;
+}
+
+
+
