@@ -1,0 +1,40 @@
+.text{
+    background: linear-gradient(-75deg, #011111, #fc00ff);
+    font-family: Poppins;
+    font-size: 30px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+body{
+    background: rgb(240, 189, 189);
+}
+h2{
+    font-style: inherit;
+    display: flex;
+    color: #134546;
+
+}
+.question{
+    margin-top: px;
+    width: 100%;
+    height: 100%;
+
+
+}
+span{
+    font-style: italic;
+}
+.question{
+   /* margin-top: 600px; */
+    width: 100%;
+    height: 100vh;
+    background: blanchedalmond;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
