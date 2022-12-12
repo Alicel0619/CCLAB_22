@@ -5,7 +5,7 @@ let count = 0;
 let progressBar;
 
 function setup() {
-  let canvas = createCanvas(windowWidth, windowHeight);
+  let canvas = createCanvas(4000,2000);
   canvas.parent("canvasContainer")
   redflag = new Flag(100, 100);
   progressBar= new Bar();
@@ -18,10 +18,10 @@ function setup() {
 
 function draw() {
   background(255);
-  textSize(100);
+  textSize(70);
   fill('red');
   textFont('Georgia');
-text('Results', 850, 120);
+text('Results', 773, 1000);
 push();
 textSize(20)
 fill('green')
