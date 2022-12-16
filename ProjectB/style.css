@@ -2,7 +2,7 @@
 .text{
     background: linear-gradient(-75deg, #ef2b2b, #920101);
     font-family: Poppins;
-    font-size: 55px;
+    font-size: 75px;
     text-transform: uppercase;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -25,7 +25,7 @@ h3{
     text-align: center;
     font-style: oblique;
     color: #fa6436;
-    font-size: 35px;
+    font-size: 55px;
     
 
 }

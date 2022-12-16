@@ -5,7 +5,7 @@ let count = 0;
 let progressBar;
 
 function setup() {
-  let canvas = createCanvas(4000,2000);
+  let canvas = createCanvas(2000,2000);
   canvas.parent("canvasContainer")
   redflag = new Flag(100, 100);
   progressBar= new Bar();
@@ -106,7 +106,7 @@ class Flag {
   }
   move(count) {
     if(this.set != true){
-      this.x = map(count, 0, 20, 100, width - 100);
+      this.x = map(count, 2, 20, 100, width - 100);
     }
  
 
@@ -145,6 +145,6 @@ class Bar {
     pop();
   }
   move(count) {
-    this.w = this.w + 61 * count; //max count = 70
+    this.w = this.w + 56 * count; //max count = 70
   }
 }
